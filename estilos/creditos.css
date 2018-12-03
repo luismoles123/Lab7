@@ -1,0 +1,28 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color:#cddc39;
+}
+
+.boton{
+    text-decoration: underline;
+    padding: 3px 30px 3px 30px;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    background-color: #3393FF;
+    border-radius: 20px;
+    border: 3px solid #0016a6;
+}
+
+.cred{
+    color:red;
+}
+
+img{
+    position: absolute;
+    right: 250px;
+    top: 30px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="tipo_contenido" content="text/html;" http-equiv="content-type" charset="utf-8">
+	<title>Preguntas</title>
+    <link rel='stylesheet' type='text/css' href='../estilos/login.css' />
+  </head>
+  <body>
+	<div id="divIniSes">
+		<form class="flogin" action="../php/Login.php" method="post">
+			<h2 class="h2">Para iniciar sesión</h2>
+			<div class="datosLogin">
+				<label> Email: </label>
+				<input type="email" name="email" size="21" class="IniSes"/>
+			</div>
+			<br><br>
+			
+			<div class="datosLogin">
+				<label> Contraseña: </label>
+				<input type="password" name="pass" class="IniSes"/>
+			</div>
+			
+			<div id="submit">
+				<input type="submit" id="IniButton" name="IniciarSesion" value="Iniciar Sesion"/>
+			</div>
+		</form>
+	</div>
+	</body>
+</html>
